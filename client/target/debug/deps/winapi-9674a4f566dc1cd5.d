@@ -1,0 +1,14 @@
+c:\Users\schmi\cse\krustybeaver\client\target\debug\deps\winapi-9674a4f566dc1cd5.rmeta: C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\lib.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\macros.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\km\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\shared\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\shared\guiddef.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\ucrt\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\um\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\um\gl\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\vc\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\winrt\mod.rs
+
+c:\Users\schmi\cse\krustybeaver\client\target\debug\deps\winapi-9674a4f566dc1cd5.d: C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\lib.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\macros.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\km\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\shared\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\shared\guiddef.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\ucrt\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\um\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\um\gl\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\vc\mod.rs C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\winrt\mod.rs
+
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\lib.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\macros.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\km\mod.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\shared\mod.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\shared\guiddef.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\ucrt\mod.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\um\mod.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\um\gl\mod.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\vc\mod.rs:
+C:\Users\schmi\.cargo\registry\src\github.com-1ecc6299db9ec823\winapi-0.3.9\src\winrt\mod.rs:
