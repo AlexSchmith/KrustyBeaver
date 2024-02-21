@@ -67,135 +67,35 @@ fn lipbored(){
 fn parse(num: u8, is_cap: bool, shift_state: bool) -> char {
     let mut character: char = '\0';
     
-
-    match num{
-        32 => character = ' ',
-        96..=105 => character = num as char,
-        65..=90 => {
-            if is_cap {
-                character = num as char;
-            }
-            else {
-                let new_num = num + 32;
-                character = new_num as char;
-            }
+    let character = match num {
+        32 => ' ',
+        96..=105 => num as char,
+        65..=90 if is_cap => num as char,
+        65..=90 => (num + 32) as char,
+        48..=64 if !shift_state => num as char,
+        48..=57 if shift_state => match num - 48 {
+            0..=9 => (num + 41) as char,
+            _ => unreachable!(),
         },
-        48..=64 => {
-            let num3 = num - 48;
-
-            if !shift_state {
-                character = num as char;
-            }
-            else {
-                match num3 {
-                    0 => character = ')',
-                    1 => character = '!',
-                    2 => character = '@',
-                    3 => character = '#',
-                    4 => character = '$',
-                    5 => character = '%',
-                    6 => character = '^',
-                    7 => character = '&',
-                    8 => character = '*',
-                    9 => character = '(',
-                    _ => unreachable!(),
-                }
-            }
-        },
-        186 => {
-            if shift_state {
-                character = ':';
-            }
-            else {
-                character = ';';
-            }
-        },
-        187 => {
-            if shift_state {
-                character = '+';
-            }
-            else {
-                character = '=';
-            }
-        },
-        188 => {
-            if shift_state {
-                character = '<';
-            }
-            else {
-                character = ',';
-            }
-        },
-        189 => {
-            if shift_state {
-                character = '_';
-            }
-            else {
-                character = '-';
-            }
-        },
-        190 => {
-            if shift_state {
-                character = '>';
-            }
-            else {
-                character = '.';
-            }
-        },
-        191 => {
-            if shift_state {
-                character = '?';
-            }
-            else {
-                character = '/';
-            }
-        },
-        192 => {
-            if shift_state {
-                character = '~';
-            }
-            else {
-                character = '`';
-            }
-        },
-        219 => {
-            if shift_state {
-                character = '{';
-            }
-            else {
-                character = '[';
-            }
-        },
-        220 => {
-            if shift_state {
-                character = '|';
-            }
-            else {
-                character = '\\';
-            }
-        },
-        221 => {
-            if shift_state {
-                character = '}';
-            }
-            else {
-                character = ']';
-            }
-        },
-        222 => {
-            if shift_state {
-                character = '\"';
-            }
-            else {
-                character = '\'';
-            }
-        },
-        0..=255 => println!("I am a Beaver"),
+        186 => if shift_state { ':' } else { ';' },
+        187 => if shift_state { '+' } else { '=' },
+        188 => if shift_state { '<' } else { ',' },
+        189 => if shift_state { '_' } else { '-' },
+        190 => if shift_state { '>' } else { '.' },
+        191 => if shift_state { '?' } else { '/' },
+        192 => if shift_state { '~' } else { '`' },
+        219 => if shift_state { '{' } else { '[' },
+        220 => if shift_state { '|' } else { '\\' },
+        221 => if shift_state { '}' } else { ']' },
+        222 => if shift_state { '\"' } else { '\'' },
+        0..=255 => {
+            println!("I am a Beaver");
+            return;
+        }
         255..=u8::MAX => unreachable!(),
         _ => unreachable!(),
-
-    }
-
+    };
+   
     return character;
 }
 
